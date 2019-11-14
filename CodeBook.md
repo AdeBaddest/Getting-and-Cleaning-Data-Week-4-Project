@@ -12,4 +12,3 @@ Merges the training and the test sets to create one data set. Extracts only the 
 
 Attribute Information For each record in the dataset it is provided: a. Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. b. Triaxial Angular velocity from the gyroscope. c. A 561-feature vector with time and frequency domain variables. d. Its activity label. e. An identifier of the subject who carried out the experiment.
 
-Descriptive variable names Accelerometer Gyroscope Body Magnitude Frequency Time
