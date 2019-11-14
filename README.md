@@ -8,8 +8,8 @@ Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advan
 
 Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Files CodeBook.md A code book that describes the variables, and the data.
+CodeBook.md A code book that describes the variables and the data.
 
-GettingandCleaningDataWk4CourseProject: Performs the data preparation and then the 5 steps required as described in project requirements: a. Merges the training and the test sets to create one data set. b. Extracts only the measurements on the mean and standard deviation for each measurement. c. Uses descriptive activity names to name the activities in the data set d. Appropriately labels the data set with descriptive variable names. e. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+run_analysis_GettingWk4Project: Performs the data preparation and then the 5 steps required as described in project requirements: a. Merges the training and the test sets to create one data set. b. Extracts only the measurements on the mean and standard deviation for each measurement. c. Uses descriptive activity names to name the activities in the data set d. Appropriately labels the data set with descriptive variable names. e. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 secTidySet.txt The exported final data.
