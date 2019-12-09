@@ -1,14 +1,102 @@
-Introduction to dataset and the project: One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+title: "Getting and Cleaning Data_Codebook"
+author: "AdeBaddest"
+date: "12th December 2019"
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## Introduction
+This codebook was created to explain the references around the averagedataset file from this repo.
 
-Here are the data for the project:
+###ID variables
+* Subject
+* Activity
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Activity labels (created using the Activity_labels.txt file from the initial file pack)
 
-You should create one R script called run_analysis.R that does the following.
+* LAYING 
+* SITTING 
+* STANDING 
+* WALKING 
+* WALKING_DOWNSTAIRS 
+* WALKING_UPSTAIRS
 
-Merges the training and the test sets to create one data set. Extracts only the measurements on the mean and standard deviation for each measurement. Uses descriptive activity names to name the activities in the data set Appropriately labels the data set with descriptive variable names. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+###Measurements
+Each meaurements for the following variables are the mean of the raw dataset
 
-Attribute Information For each record in the dataset it is provided: a. Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. b. Triaxial Angular velocity from the gyroscope. c. A 561-feature vector with time and frequency domain variables. d. Its activity label. e. An identifier of the subject who carried out the experiment.
-
+* tBodyAcc-mean()-X   
+* tBodyAcc-mean()-Y 
+* tBodyAcc-std()-Y 
+* tGravityAcc-mean()-Y 
+* tGravityAcc-std()-Y 
+* tBodyAccJerk-mean()-Y 
+* tBodyAccJerk-std()-Y 
+* tBodyGyro-mean()-Y 
+* tBodyGyro-std()-Y 
+* tBodyGyroJerk-mean()-Y 
+* tBodyGyroJerk-std()-Y 
+* tBodyAccMag-std() 
+* tBodyAccJerkMag-mean() 
+* tBodyGyroMag-std() 
+* fBodyAcc-mean()-X 
+* fBodyAcc-std()-X 
+* fBodyAcc-meanFreq()-X 
+* fBodyAccJerk-mean()-X 
+* fBodyAccJerk-std()-X 
+* fBodyAccJerk-meanFreq()-X 
+* fBodyGyro-mean()-X 
+* fBodyGyro-std()-X 
+* fBodyGyro-meanFreq()-X 
+* fBodyAccMag-mean() 
+* fBodyBodyAccJerkMag-mean() 
+* fBodyBodyGyroMag-mean() 
+* fBodyBodyGyroJerkMag-mean() 
+* tBodyAcc-mean()-Z 
+* tBodyAcc-std()-Z 
+* tGravityAcc-mean()-Z 
+* tGravityAcc-std()-Z 
+* tBodyAccJerk-mean()-Z 
+* tBodyAccJerk-std()-Z 
+* tBodyGyro-mean()-Z 
+* tBodyGyro-std()-Z 
+* tBodyGyroJerk-mean()-Z 
+* tBodyGyroJerk-std()-Z 
+* tGravityAccMag-mean() 
+* tBodyAccJerkMag-std() 
+* tBodyGyroJerkMag-mean() 
+* fBodyAcc-mean()-Y 
+* fBodyAcc-std()-Y 
+* fBodyAcc-meanFreq()-Y 
+* fBodyAccJerk-mean()-Y 
+* fBodyAccJerk-std()-Y 
+* fBodyAccJerk-meanFreq()-Y 
+* fBodyGyro-mean()-Y 
+* fBodyGyro-std()-Y 
+* fBodyGyro-meanFreq()-Y 
+* fBodyAccMag-std() 
+* fBodyBodyAccJerkMag-std() 
+* fBodyBodyGyroMag-std() 
+* fBodyBodyGyroJerkMag-std() 
+* tBodyAcc-std()-X 
+* tGravityAcc-mean()-X 
+* tGravityAcc-std()-X 
+* tBodyAccJerk-mean()-X 
+* tBodyAccJerk-std()-X 
+* tBodyGyro-mean()-X 
+* tBodyGyro-std()-X 
+* tBodyGyroJerk-mean()-X 
+* tBodyGyroJerk-std()-X 
+* tBodyAccMag-mean() 
+* tGravityAccMag-std() 
+* tBodyGyroMag-mean() 
+* tBodyGyroJerkMag-std() 
+* fBodyAcc-mean()-Z 
+* fBodyAcc-std()-Z 
+* fBodyAcc-meanFreq()-Z 
+* fBodyAccJerk-mean()-Z 
+* fBodyAccJerk-std()-Z 
+* fBodyAccJerk-meanFreq()-Z 
+* fBodyGyro-mean()-Z 
+* fBodyGyro-std()-Z 
+* fBodyGyro-meanFreq()-Z 
+* fBodyAccMag-meanFreq() 
+* fBodyBodyAccJerkMag-meanFreq() 
+* fBodyBodyGyroMag-meanFreq() 
+* fBodyBodyGyroJerkMag-meanFreq()
